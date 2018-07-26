@@ -1,0 +1,136 @@
+
+
+.menunavbar
+{
+  background-color: #1b79db !important;
+}
+.contenedor_noticias
+{
+  margin-top: 70px !important;
+}
+.cardContent
+{
+	margin: auto;
+	width: 30px !important;
+}
+.nav-link{
+cursor: pointer;
+}
+
+.mimodal
+{
+	background-color:transparent!important;
+	background-clip: !important;
+	border:0 !important;
+}
+
+.sidenav {
+    height: 100%;
+    width: 210px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #12a9ec;
+    overflow-x: hidden;
+    //padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #69dbdd;
+}
+
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*
+.menu_1{
+	background-color: #00376f;
+}
+
+.menu_2{
+	background-color: #0d559e;
+}
+
+.menu_3{
+	background-color: #0072b4;
+}
+
+.menu_4{
+	background-color: #008ad2;
+}
+
+.menu_5{
+	background-color: #12a9ec;
+}
+
+.menu_6{
+	background-color: #008cba;
+}
+.menu_7{
+	background-color: #009dc9;
+}*/
+.categoria
+{
+    background-color: #12a9ec;
+}
+.panel-primary {
+    border-color: #337ab7 !important;
+}
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.leer_mas{
+	
+    margin-right: 10px;
+}
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+.thumbnail .caption {
+    padding: 9px;
+    color: #333;
+}
